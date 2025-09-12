@@ -12,3 +12,4 @@
 /Users/erkhembilegariunbold/Desktop/Microsoft Learn Develop Apps with .NET /obj/Debug/net9.0/Microsoft Learn Develop Apps with .NET.pdb
 /Users/erkhembilegariunbold/Desktop/Microsoft Learn Develop Apps with .NET /obj/Debug/net9.0/Microsoft Learn Develop Apps with .NET.genruntimeconfig.cache
 /Users/erkhembilegariunbold/Desktop/Microsoft Learn Develop Apps with .NET /obj/Debug/net9.0/ref/Microsoft Learn Develop Apps with .NET.dll
+/Users/erkhembilegariunbold/Desktop/Microsoft Learn Develop Apps with .NET /obj/Debug/net9.0/Microsoft Learn Develop Apps with .NET.sourcelink.json
