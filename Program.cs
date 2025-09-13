@@ -7,7 +7,7 @@ class Program
     MyClass.run(); // calling static method
     MyClass obj = new MyClass();  // created an object on the heap
     obj.call_obj();
-    Calculator.first();
+    Calculator.calculator();
   }
   private static void Learning()
   {
