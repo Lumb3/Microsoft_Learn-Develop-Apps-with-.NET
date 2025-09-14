@@ -8,6 +8,7 @@ class Program
     MyClass obj = new MyClass();  // created an object on the heap
     obj.call_obj();
     Calculator.calculator();
+    GPA.GPA_Calculator();
   }
   private static void Learning()
   {
