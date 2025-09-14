@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Humanizer;
 class Program
 {
   public static void Main()
@@ -9,6 +9,33 @@ class Program
     obj.call_obj();
     Calculator.calculator();
     GPA.GPA_Calculator();
+    Console.WriteLine("Hi");
+    static void HumanizeQuantities()
+    {
+      Console.WriteLine("case".ToQuantity(0));
+      Console.WriteLine("case".ToQuantity(1));
+      Console.WriteLine("case".ToQuantity(5));
+    }
+
+    static void HumanizeDates()
+    {
+      Console.WriteLine(DateTime.UtcNow.AddHours(-24).Humanize());
+      Console.WriteLine(DateTime.UtcNow.AddHours(-2).Humanize());
+      Console.WriteLine(TimeSpan.FromDays(1).Humanize());
+      Console.WriteLine(TimeSpan.FromDays(16).Humanize());
+    }
+    Console.WriteLine("Quantities:");
+    HumanizeQuantities();
+
+    Console.WriteLine("\nDate/Time Manipulation:");
+    HumanizeDates();
+
+    // Calling different kinds of methods in the .NET Class Library
+    Random dice = new Random();
+    int roll = dice.Next(1, 7);
+    Console.WriteLine($"Random dice between 1 and 7: {roll}");
+    int result = dice.Next();
+    Console.WriteLine($"Random number: {result}");
   }
   private static void Learning()
   {

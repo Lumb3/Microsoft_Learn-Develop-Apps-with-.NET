@@ -53,5 +53,10 @@ class GPA
     Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
 
     Console.WriteLine($"Final GPA: {leadingDigit}.{firstDigit}{secondDigit}");
+    decimal grade = 3.9987m;
+    grade = (int)grade;
+    Console.WriteLine(grade);
+    Console.WriteLine("HII");
+    
   }
 }
